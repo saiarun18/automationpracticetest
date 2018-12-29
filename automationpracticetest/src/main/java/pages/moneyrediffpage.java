@@ -6,8 +6,10 @@ import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.testng.annotations.Listeners;
 
 import sourcemethods.SeMethods;
+
 
 public class moneyrediffpage extends SeMethods{
 	
@@ -53,10 +55,6 @@ public class moneyrediffpage extends SeMethods{
 		    String valueIneed = cellIneed.getText();
 		    System.out.println("Cell value is : " + valueIneed); 
 	}
-	
-	
-	
-	
 }
 	
 	

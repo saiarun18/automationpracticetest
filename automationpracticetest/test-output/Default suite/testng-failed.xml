@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="test.Dynamicwebtable_practice">
+      <class name="test.CRM_login">
         <methods>
-          <include name="particular_row_column"/>
+          <include name="userlogin"/>
         </methods>
-      </class> <!-- test.Dynamicwebtable_practice -->
+      </class> <!-- test.CRM_login -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

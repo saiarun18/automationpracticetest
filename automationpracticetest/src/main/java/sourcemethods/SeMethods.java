@@ -30,11 +30,11 @@ public SeMethods() throws IOException {
 	// super();
 
 	loadPropertyFile(new File(System.getProperty("user.dir").concat("/objectrepository.properties")));
+	
 }
 
 public void loadPropertyFile(File file) throws IOException {
-	
-		FileInputStream fis = new FileInputStream(file);
+	FileInputStream fis = new FileInputStream(file);
 		list.load(fis);
 	
 }
